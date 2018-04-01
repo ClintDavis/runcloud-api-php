@@ -1,0 +1,21 @@
+{
+    "name": "clintdavis/runcloudapi",
+    "description": "A api wrapper library",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/ClintDavis/runcloud-api-php",
+    "authors": [
+        {
+            "name": "Clint Davis",
+            "email": "os-dev@clint.davis.to"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ClintDavis\\RuncloudAPI\\": "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
