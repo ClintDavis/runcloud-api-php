@@ -1,1 +1,4 @@
 vendor/
+composer.lock
+clienttest.php
+bootstrap.php

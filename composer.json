@@ -10,12 +10,19 @@
             "email": "os-dev@clint.davis.to"
         }
     ],
+    "keywords": [
+        "API",
+        "Runcloud"
+      ],
     "autoload": {
         "psr-4": {
-            "ClintDavis\\RuncloudAPI\\": "src"
+            "ClintDavis\\RuncloudAPI\\": ["src/RuncloudAPI"]
         }
     },
     "require": {
         "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload-dev": {
+        "psr-4": { "ClintDavis\\RuncloudAPI\\Tests\\": "tests/RuncloudAPI" }
     }
 }
