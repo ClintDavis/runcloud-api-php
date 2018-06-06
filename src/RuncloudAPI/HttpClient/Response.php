@@ -1,6 +1,6 @@
 <?php
 /**
- * WooCommerce REST API HTTP Client Response
+ * Runcloud REST API HTTP Client Response
  *
  * @category HttpClient
  * @package  ClintDavis/RuncloudAPI

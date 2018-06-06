@@ -20,7 +20,7 @@ use ClintDavis\RuncloudAPI\HttpClient\HttpClient;
 class Client
 {
     /**
-    * WooCommerce REST API Client version.
+    * Runcloud REST API Client version.
     */
     const VERSION = '1.0.0';
 
